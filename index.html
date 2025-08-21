@@ -19,8 +19,9 @@
     }
 
     h1 {
-      color: #c62828; /* Rojo más oscuro para mejor contraste */
+      color: #b71c1c; /* Rojo oscuro accesible */
       font-size: 1.5rem;
+      margin-bottom: 15px;
     }
 
     label {
@@ -40,7 +41,7 @@
     }
 
     .btn {
-      background-color: #d32f2f; /* Rojo más oscuro (mejor contraste) */
+      background-color: #b71c1c; /* Rojo accesible */
       color: white;
       border: none;
       padding: 12px;
@@ -52,13 +53,13 @@
     }
 
     .btn:hover {
-      background-color: #b71c1c;
+      background-color: #7f0000;
     }
 
     .link {
       display: inline-block;
       margin-top: 10px;
-      color: #0d47a1; /* Azul fuerte para contraste */
+      color: #0d47a1; /* Azul fuerte accesible */
       font-weight: bold;
       text-decoration: none;
     }
@@ -90,9 +91,10 @@
     
     <a href="historial.html" class="link">Ver historial</a>
 
-    <div class="profile-icon">
-      <img src="icono-usuario.svg" alt="Perfil de usuario">
-    </div>
+    <!-- Ícono de perfil accesible -->
+    <button class="profile-icon" aria-label="Perfil de usuario">
+      <img src="icono-usuario.svg" alt="">
+    </button>
 
     <form>
       <label for="fecha">Fecha</label>
